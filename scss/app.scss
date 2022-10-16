@@ -63,3 +63,24 @@
 // Motion UI
 @include motion-ui-transitions;
 @include motion-ui-animations;
+
+
+
+#imgResto {
+    margin: auto;
+    display: block;
+}
+
+.social-link {
+    font-size: 24px;
+}
+
+#title {
+    margin-bottom: 0px;
+}
+
+#title-adress {
+    font-weight: bold;
+    font-style: italic;
+    color: #555555;
+}

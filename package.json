@@ -1,18 +1,14 @@
 {
-  "name": "foundation-sites-template",
+  "name": "thaibaan",
   "version": "1.0.0",
-  "description": "Basic template for a new Foundation for Sites project.",
+  "description": "web site of the thai baan restaurant.",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
     "build": "gulp sass"
   },
-  "author": "Foundation Yetinauts <contact@get.foundation> (https://get.foundation)",
+  "author": "Remi Kowalski",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/foundation/foundation-sites/issues",
-    "email": "contact@get.foundation"
-  },
   "dependencies": {
     "foundation-sites": "latest",
     "jquery": ">=3.6.0",
@@ -30,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/foundation/foundation-sites-template.git"
+    "url": "https://github.com/thai-baan/thai-baan.github.io"
   },
   "private": true,
   "browserslist": [

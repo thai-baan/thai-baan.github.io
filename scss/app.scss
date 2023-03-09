@@ -64,7 +64,11 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-
+@media (max-aspect-ratio: 4/3) {
+    body {
+      padding-bottom: 60%;
+    }
+  }
 
 #imgResto {
     margin: auto;
@@ -92,4 +96,16 @@ p {
 
 h2 {
     text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.menu-thai-baan {
+  height: 2em;
+}
+.menu-thai-baan > a{
+  width: 250px;
+  font-size: 1.2em;
+  display: block;
+  margin: auto;
 }
